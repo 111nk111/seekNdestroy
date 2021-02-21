@@ -1,0 +1,2 @@
+Requirements: Pygame 1.9.6, Python 3.8
+Not compatible with python 2.7
