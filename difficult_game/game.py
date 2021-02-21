@@ -140,7 +140,7 @@ class Game:
             pygame.display.update()
 
     def game_start(self, txt):
-        font = pygame.font.Font("C:\\Windows\\Fonts\\calibri.ttf", 35)
+        font = pygame.font.Font(pygame.font.get_default_font(), 35)
         text = font.render(txt, False, (255, 0, 0))
         while 1:
             self.screen.fill((255, 255, 255))
