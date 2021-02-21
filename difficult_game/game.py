@@ -117,6 +117,8 @@ class Game:
                     self.game_start("LOST")
                 o.x_limits[0] = pix[0].x
                 o.y_limits[1] = piy[0].y
+                if o.x < o.x_limits[0]:
+                    o.x = o.x_limits[0]
 
             try:
                 for p in self.pixels:
