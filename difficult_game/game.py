@@ -1,7 +1,7 @@
 import pygame
 from pygame_classes import *
-from difficult_game.player import Player
-from difficult_game.obstacle import Obstacle
+from player import Player
+from obstacle import Obstacle
 import random
 
 
